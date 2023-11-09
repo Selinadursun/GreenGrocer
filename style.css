@@ -6,8 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 main {
     background-color: rgb(243, 249, 239);
     overflow: auto;
@@ -18,7 +16,6 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
 
 .colored-section {
     background-color: #6d7343;
@@ -38,8 +35,6 @@ main {
     padding: 20px;
     text-align: center;
 }
-
-
 
 .flex-container {
     display: flex;
@@ -87,7 +82,6 @@ main {
 .image-item2:hover {
     transform: scale(1.1);
 }
-
 
 .image-text {
     position: absolute;
@@ -178,7 +172,6 @@ main {
     white-space: nowrap;
     width: 100%;
     position: relative;
-    margin-bottom: 74px;
 }
 
 .image-item2 {
@@ -211,8 +204,6 @@ main {
     text-align: center;
     margin: 38px;
     width: 190px;
-    
-
 }
 
 .image-container-2:hover .caption {
@@ -240,7 +231,7 @@ footer {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center, space-around;
+    justify-content: center;
     max-width: 320px;
     margin: 0 auto;
 
@@ -275,14 +266,13 @@ footer p {
 
 }
 
--------------------------------- ressss .flex-container {
+.flex-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 156px;
 }
 
 .introductie-recepten {
@@ -295,8 +285,6 @@ footer p {
     margin-top: 148px;
     margin-bottom: 59px;
 }
-
-
 
 .recept-item {
     display: flex;
@@ -372,7 +360,7 @@ h2 {
 }
 
 
---------------- sssss .supermarkt-tekst-foto {
+.supermarkt-tekst-foto {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -380,21 +368,21 @@ h2 {
 
 }
 
-.introductie-supermarkten{
-text-align: center;
-padding: 20px;
-background-color: #abb87f;
-padding: 20px;
-color: rgb(255, 255, 254);
-border-radius: 2%;
-margin-top: 148px;
-margin-bottom: 59px;
+.introductie-supermarkten {
+    text-align: center;
+    padding: 20px;
+    background-color: #abb87f;
+    padding: 20px;
+    color: rgb(255, 255, 254);
+    border-radius: 2%;
+    margin-top: 148px;
+    margin-bottom: 59px;
 }
 
 .supermarkten-tekst-foto img {
     display: flex;
     margin: 0 auto;
-    width:300px;
+    width: 300px;
     border-radius: 2%;
 
 }
@@ -422,7 +410,6 @@ margin-bottom: 59px;
     margin-bottom: 46px;
 }
 
-
 .lees-verder .button {
     cursor: pointer;
     background-color: #abb87f;
@@ -449,17 +436,16 @@ margin-bottom: 59px;
 
 }
 
-.locaties{
+.locaties {
     padding: 22px;
-    
+
 }
 
-.locaties img{
-    width:300px;
+.locaties img {
+    width: 300px;
     border-radius: 2%;
-    display:flex;
+    display: flex;
 }
-
 
 .openingstijden {
     padding: 22px;
@@ -473,11 +459,9 @@ margin-bottom: 59px;
     padding: 22px;
 }
 
-
 .review {
     padding: 22px;
 }
-
 
 #toggle:checked~.inhoud-supermarkten {
     max-height: 1768px;
@@ -499,29 +483,24 @@ margin-bottom: 59px;
     text-align: center;
 }
 
-
-
-  ------------
-
-  .zero-waste{
+.zero-waste {
     display: flex;
     justify-content: center;
     text-align: center;
     color: darkolivegreen;
-  }
-
-  .zero-waste img{
-  display: flex;
-  margin: 0 auto;
-  width:300px;
-  border-radius: 2%;
 }
-  .zerowaste-tips{
+
+.zero-waste img {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 2%;
+}
+
+.zerowaste-tips {
     display: flex;
     padding: 20px;
     text-align: center;
     color: darkolivegreen;
     margin-bottom: 76px;
-
-  }
-
+}
