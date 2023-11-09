@@ -1,0 +1,526 @@
+* {
+
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+main {
+    background-color: rgb(243, 249, 239);
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.colored-section {
+    background-color: #6d7343;
+    padding: 37px;
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    width: 100%;
+    height: 142px;
+    background-color: #6d7343;
+    ;
+}
+
+.other-section {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-home {
+    background-color: #abb87f;
+    padding: 20px;
+    color: rgb(255, 255, 254);
+    border-radius: 2%;
+    text-align: center;
+    margin-top: 149px;
+    margin-bottom: 66px;
+}
+
+.image-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+
+}
+
+.image-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+.image-item {
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.image-item2:hover {
+    transform: scale(1.1);
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.image-item:hover .image-text {
+    opacity: 1;
+}
+
+.image-item:hover {
+    transform: scale(1.1);
+}
+
+.home-page-supermarkten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkolivegreen;
+}
+
+.intro-voedselverspilling {
+    background-color: #ddd6c2;
+    padding: 20px;
+    color: darkolivegreen;
+    border-radius: 2%;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.intro-voedselverspilling h3 {
+    text-align: center;
+
+}
+
+.content p {
+    text-align: center;
+
+}
+
+.content img {
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+.recente-recepten {
+    background-color: #ddd6c2;
+    padding: 20px;
+    color: darkolivegreen;
+    border-radius: 2%;
+    background-color: #ddd6c2;
+    padding: 7px;
+    color: darkolivegreen;
+    border-radius: 2%;
+    margin-top: 48px;
+    flex-wrap: wrap;
+}
+
+.recente-recepten h4 {
+    text-align: center;
+    margin: 48px;
+    color: darkolivegreen;
+    margin-top: 10px;
+}
+
+.recente-recepten p {
+    text-align: center;
+    color: darkolivegreen;
+    margin: 23px;
+    margin-top: -27px;
+}
+
+
+.image-container-2 {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+}
+
+.image-item2 {
+    flex: 0 0 auto;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.image-item2:hover {
+    transform: scale(1.1);
+}
+
+.image-item2 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    background-color: rgba(75, 62, 56, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 23px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+    margin: 38px;
+    width: 190px;
+    
+
+}
+
+.image-container-2:hover .caption {
+    opacity: 1;
+}
+
+footer {
+    background-color: #6d7343;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav {
+    justify-content: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center, space-around;
+    max-width: 320px;
+    margin: 0 auto;
+
+}
+
+.footer-nav li {
+    text-align: center;
+}
+
+.footer-nav a img {
+    display: block;
+    margin: 0 auto 5px;
+    height: 58px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+}
+
+.footer-nav a {
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 4em;
+    text-align: center;
+    position: fixed;
+    margin-top: 71px;
+
+}
+
+-------------------------------- ressss .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 156px;
+}
+
+.introductie-recepten {
+    text-align: center;
+    padding: 20px;
+    background-color: #abb87f;
+    padding: 20px;
+    color: rgb(255, 255, 254);
+    border-radius: 2%;
+    margin-top: 148px;
+    margin-bottom: 59px;
+}
+
+
+
+.recept-item {
+    display: flex;
+    margin-top: 29px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 53px;
+}
+
+.foto-recept-1 {
+    text-align: center;
+    color: darkolivegreen;
+}
+
+.foto-recept-1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.content-recept {
+    flex: 1;
+    display: inline-flex;
+    margin-top: 6px;
+    background-color: #ddd6c2;
+    border-radius: 2%;
+}
+
+.recept h1,
+h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    color: darkolivegreen;
+}
+
+.bereiding h3 {
+    font-size: 18px;
+    margin: 0;
+    color: darkolivegreen;
+}
+
+.ingrediënten h3 {
+    font-size: 18px;
+    margin: 0;
+    color: darkolivegreen;
+}
+
+.ingrediënten,
+.bereiding {
+    flex: 1;
+    padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    color: darkolivegreen;
+}
+
+.ingrediënten ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: darkolivegreen;
+}
+
+.ingrediënten li {
+    margin-bottom: 5px;
+    color: darkolivegreen;
+}
+
+.bereiding p {
+    font-size: 16px;
+    color: darkolivegreen;
+}
+
+
+--------------- sssss .supermarkt-tekst-foto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: darkolivegreen;
+
+}
+
+.introductie-supermarkten{
+text-align: center;
+padding: 20px;
+background-color: #abb87f;
+padding: 20px;
+color: rgb(255, 255, 254);
+border-radius: 2%;
+margin-top: 148px;
+margin-bottom: 59px;
+}
+
+.supermarkten-tekst-foto img {
+    display: flex;
+    margin: 0 auto;
+    width:300px;
+    border-radius: 2%;
+
+}
+
+.container img {
+    max-width: 293px;
+    margin: -210px;
+    padding: 16px;
+}
+
+.supermarkten-info {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: darkolivegreen;
+
+}
+
+.supermarkten-omschrijving {
+    flex: 1;
+
+}
+
+.lees-verder {
+    margin-bottom: 46px;
+}
+
+
+.lees-verder .button {
+    cursor: pointer;
+    background-color: #abb87f;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+}
+
+.lees-verder .inhoud-supermarkten {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    margin-bottom: 83px;
+}
+
+.inhoud-supermarkten {
+    margin: 8px;
+    color: darkolivegreen;
+    border-radius: 2%;
+    background-color: #ddd6c2;
+
+}
+
+.locaties{
+    padding: 22px;
+    
+}
+
+.locaties img{
+    width:300px;
+    border-radius: 2%;
+    display:flex;
+}
+
+
+.openingstijden {
+    padding: 22px;
+}
+
+.openingstijden ul {
+    list-style: none;
+}
+
+.product-aanbod {
+    padding: 22px;
+}
+
+
+.review {
+    padding: 22px;
+}
+
+
+#toggle:checked~.inhoud-supermarkten {
+    max-height: 1768px;
+    text-align: center;
+}
+
+#toggle-1:checked~.inhoud-supermarkten {
+    max-height: 1768px;
+    text-align: center;
+}
+
+#toggle-2:checked~.inhoud-supermarkten {
+    max-height: 1768px;
+    text-align: center;
+}
+
+#toggle-3:checked~.inhoud-supermarkten {
+    max-height: 1768px;
+    text-align: center;
+}
+
+
+
+  ------------
+
+  .zero-waste{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: darkolivegreen;
+  }
+
+  .zero-waste img{
+  display: flex;
+  margin: 0 auto;
+  width:300px;
+  border-radius: 2%;
+}
+  .zerowaste-tips{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: darkolivegreen;
+    margin-bottom: 76px;
+
+  }
+
